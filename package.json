@@ -2,7 +2,7 @@
   "name": "doctor-listing-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Jakevernice/bajaj-doctor-listing-app",
+  "homepage": "https://jakevernice.github.io/bajaj-doctor-listing-app/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
