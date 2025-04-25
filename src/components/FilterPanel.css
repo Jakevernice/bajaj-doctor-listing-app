@@ -1,0 +1,52 @@
+.filter-panel {
+  width: 250px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: fit-content;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+.filter-section:last-child {
+  border-bottom: none;
+}
+
+.filter-section h3 {
+  color: #2c7be5;
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-section label {
+  display: block;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.filter-section input[type="radio"],
+.filter-section input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.clear-all {
+  color: #2c7be5;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.filter-section input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
